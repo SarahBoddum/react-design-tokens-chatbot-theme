@@ -2,6 +2,8 @@ import posthog from 'posthog-js';
 
 const posthogKey = import.meta.env.VITE_POSTHOG_KEY;
 const posthogHost = import.meta.env.VITE_POSTHOG_HOST;
+console.log('PostHog key findes:', Boolean(posthogKey));
+console.log('PostHog host findes:', Boolean(posthogHost));
 let posthogClient = null;
 
 if (!posthogKey || !posthogHost) {
