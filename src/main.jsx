@@ -6,6 +6,7 @@ import TokenChainSlide from './TokenChainSlide.jsx';
 import './posthog.js';
 import './tokens.css';
 import './styles.css';
+import './posthog.js';
 
 const slide = new URLSearchParams(window.location.search).get('slide');
 const page = slide === '6' ? <TokenTypesSlide /> : slide === '7' ? <TokenChainSlide /> : <App />;
