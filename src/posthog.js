@@ -28,7 +28,9 @@ if (!posthogKey || !posthogHost) {
       capture_console_errors: false,
     },
   });
+  
   posthogClient = posthog;
 }
+console.log('PostHog initialiseret');
 
 export default posthogClient;
