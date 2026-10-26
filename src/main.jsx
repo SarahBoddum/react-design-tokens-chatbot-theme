@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 import TokenTypesSlide from './TokenTypesSlide.jsx';
 import TokenChainSlide from './TokenChainSlide.jsx';
+import './posthog.js';
 import './tokens.css';
 import './styles.css';
 
